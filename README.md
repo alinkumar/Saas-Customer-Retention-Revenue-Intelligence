@@ -29,6 +29,101 @@
 SaaS DATA → PYTHON / PANDAS → MYSQL / SQL → POWER QUERY → POWER BI + DAX → BUSINESS INSIGHTS
 ```
 
+## 🚀 Project Overview
+
+**SaaS Customer Retention & Revenue Intelligence** is an end-to-end **Data Analytics & Business Intelligence** project built to understand subscription retention, churn and recurring-revenue impact for a SaaS business.
+
+The project works across five related datasets — **accounts, plans, subscriptions, invoices and payments** — and follows a complete analytics workflow:
+
+```text
+RAW SAAS DATA
+      ↓
+PYTHON / PANDAS
+Data Profiling + Validation + Cleaning
+      ↓
+MYSQL / SQL
+15 Business-Focused Analysis Queries
+      ↓
+POWER QUERY
+BI Data Preparation
+      ↓
+POWER BI + DAX
+Interactive Dashboard + KPI Analysis
+      ↓
+BUSINESS INSIGHTS
+Retention + Churn + Revenue Impact
+```
+
+The final solution converts raw subscription and billing data into **business-ready KPIs, dimensional analysis and interactive insights** that can support retention investigations and recurring-revenue monitoring.
+
+### 🎯 What I Solved
+
+Instead of looking only at total customers or total revenue, the project answers:
+
+- How many subscriptions are active vs cancelled?
+- What is the observed subscription churn rate?
+- How much recurring revenue is associated with active subscriptions?
+- How much recurring revenue is associated with cancelled subscriptions?
+- How does churn vary across **plans, customer segments, acquisition channels and tenure**?
+- Which customer cohorts show meaningful churn and recurring-revenue impact?
+- How can these findings be presented through an interactive BI dashboard?
+
+### 🛠️ What I Did
+
+| Stage | Work Performed |
+|---|---|
+| 📥 Data Understanding | Explored five related SaaS datasets and their relationships |
+| 🧹 Data Quality | Checked dimensions, data types, missing values, duplicates, dates, IDs and relationships |
+| 🐍 Python / Pandas | Validated, cleaned and exported analysis-ready datasets |
+| 🗄️ MySQL / SQL | Created 15 business-focused queries covering revenue, churn and customer dimensions |
+| 🔎 Diagnostic Analysis | Compared churn by plan, segment, acquisition channel and tenure |
+| 💰 Revenue Analysis | Measured Active MRR and Cancelled MRR to understand recurring-revenue impact |
+| 🔄 Power Query | Prepared cleaned data for the BI layer |
+| 📊 Power BI | Built an interactive retention and revenue dashboard |
+| 🧮 DAX | Created dynamic KPI measures for subscriptions, churn and MRR |
+| 💡 Business Storytelling | Converted analytical results into insights, recommendations and investigation areas |
+
+### 💼 How the Business Problem Was Addressed
+
+The analysis moves from a simple **“How much churn do we have?”** question to a more useful diagnostic view:
+
+```text
+CHURN
+  ↓
+PLAN
+  +
+CUSTOMER SEGMENT
+  +
+ACQUISITION CHANNEL
+  +
+TENURE
+  ↓
+CUSTOMER COHORTS
+  ↓
+CANCELLED MRR
+  ↓
+REVENUE IMPACT
+```
+
+This approach helps distinguish between **high churn percentage** and **meaningful recurring-revenue impact**. A cohort with a high churn rate is not automatically the cohort with the largest revenue impact, so customer volume and Cancelled MRR are considered together.
+
+### 📈 Final Analytical Outcome
+
+The project produced a retention baseline of:
+
+| KPI | Result |
+|---|---:|
+| **Total Subscriptions** | **5,000** |
+| **Active Subscriptions** | **4,035** |
+| **Cancelled Subscriptions** | **965** |
+| **Observed Subscription Churn** | **19.30%** |
+| **Active MRR** | **1,387,441** |
+| **Cancelled MRR** | **342,673** |
+
+The final Power BI dashboard makes these KPIs and their underlying dimensions easier to explore through interactive filtering and visual analysis.
+
+> **Important:** Cancelled MRR is treated as an analytical recurring-revenue impact metric associated with cancelled subscriptions. It is **not** interpreted as accounting loss or profit loss.
+
 ## 🎯 Business Problem
 
 A SaaS business depends on recurring subscriptions. Looking only at total customers or total revenue can hide important retention problems.
